@@ -37,7 +37,7 @@ $about_section_text = get_field('about_section_text');
     <div class="row" id="primary">
         <div id="content" class="col-sm-12">
             <section class='main-content'>
-                <p class="lead">
+                <p class="small-lead">
                 <?php echo $about_section_text;?>
                 </p>
                 

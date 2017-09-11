@@ -409,6 +409,12 @@ p.lead {
     color: #fff;
 }
 
+.small-lead {
+    color: #fff;
+    font-size: 1em;
+    margin-bottom: 40px;
+}
+
 button, input, .btn, a.btn {
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
@@ -430,8 +436,12 @@ button.btn:focus {
 }
 
 .btn-success:hover {
-    background: #2b0241;
-    border-color: #2b0241;
+    background: #2b0241 !important;
+    border-color: #2b0241 !important;
+}
+.btn-success:active {
+    background: #2b0241 !important;
+    border-color: #2b0241 !important;
 }
 
 .btn-danger {
@@ -498,11 +508,10 @@ section h3 {
     padding-bottom: 40px;
 }
 
-
-
 .icon-bar {
-    background-color: #440e62;
+    background-color: #fff;
 }
+
 /*Hero Section*/
 #hero {
     background: url('/wp-content/themes/countproximo/assets/img/Hero-Computer.png') 50% 0 repeat fixed;
@@ -998,12 +1007,32 @@ button[type="submit"]:hover {
     .hero-bottom p {
         text-align: center;
     }
+    .logo {
+        display: none;
+    }
+    .site-header {
+        margin-bottom: 0px;
+    }
+    .navbar-nav .current_page_item {
+        border-bottom: 0px;
+    }
+    .about {
+        width:100%;
+  
+    }
+
+    .about:nth-child(1n) {
+
+    }
+    
+    .about img {
+        margin-right: auto;
+        margin-left: auto;
+      
+    }
 }
 
 @media screen and (max-width: 768px) {
-    .logo {
-        width: 50%;
-    }
 
 
 }

@@ -39,7 +39,7 @@
 <footer>
     <div class="container">
         <div class="col-sm-3">
-            <p><a href="/"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/logo.png" alt="Count Proximo"></a></p>
+            <p><a href="/"><img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/Logo.png" alt="Count Proximo" class="logo"></a></p>
         </div>
         <div class="col-sm-9">
             <?php 
