@@ -933,17 +933,11 @@ footer a:hover {
 
 /*About*/
 .about {
-    width:31.3333333%;
-    float:left;
-    margin: 0 3% 40px 0;
     color: #fff;
     font-size: 12px;
     line-height: 20px;
 }
 
-.about:nth-child(3n) {
-    margin-right: 0;
-}
 /*Forms*/
 label {
     display: block;
@@ -1017,20 +1011,6 @@ button[type="submit"]:hover {
     }
     .navbar-nav .current_page_item {
         border-bottom: 0px;
-    }
-    .about {
-        width:100%;
-  
-    }
-
-    .about:nth-child(1n) {
-
-    }
-    
-    .about img {
-        margin-right: auto;
-        margin-left: auto;
-      
     }
 }
 

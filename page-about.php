@@ -51,7 +51,7 @@ $about_section_text = get_field('about_section_text');
                     $button_text = get_field('button_text');
                     ?>
                    
-                    <div class="about">
+                    <div class="about col-sm-4">
                         <a class="<?php echo $panel_url;?>"><img src="<?php echo $panel_image['url']; ?>" alt="<?php echo $panel_image['alt']; ?>"></a><br><br>
                         <?php the_content(); ?>
                         <?php if (!empty($button_text)) : ?>
